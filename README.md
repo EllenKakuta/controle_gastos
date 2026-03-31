@@ -92,4 +92,4 @@ Este projeto foi desenvolvido com foco em aprendizado e evolução contínua. Me
 
 ## 👩‍💻 Autora
 
-Projeto desenvolvido por mim durante minha jornada de aprendizado em Python 
+Projeto desenvolvido por mim durante minha contínua jornada de estudos em Python 
