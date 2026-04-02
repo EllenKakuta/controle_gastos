@@ -8,6 +8,19 @@ Diferente de projetos básicos, este sistema implementa lógica de negócio rele
 
 ---
 
+## 📸 Demonstração
+
+### Menu principal
+![menu](./assets/menu.png)
+
+### Registro de compra no cartão
+![compra](./assets/compra.png)
+
+### Extrato do sistema
+![extrato](./assets/extrato.png)
+
+---
+
 ## 🎯 Objetivo
 
 Construir um sistema funcional enquanto desenvolve habilidades em:
@@ -194,10 +207,24 @@ O projeto está estruturado em uma única aplicação (V1), priorizando:
 
 ---
 
+## 🧠 Aprendizados
+
+Durante o desenvolvimento deste projeto, foram trabalhados conceitos como:
+
+- Modelagem de regras de negócio
+- Manipulação de datas e controle de fluxo temporal
+- Organização de dados em estruturas complexas
+- Tratamento de erros e validação de entradas
+- Simulação de comportamento de sistemas reais
+
+Este projeto marcou a transição de exercícios simples para construção de sistemas mais próximos do mercado.
+
+---
+
 ## 👩‍💻 Autora
 
 Desenvolvido por **Ellen Dias** 🚀
-Em transição para a área de tecnologia com foco em sistemas e prevenção a fraudes.
+Em transição para a área de tecnologia com foco em sistemas, churn e prevenção a fraudes.
 
 ---
 
@@ -206,17 +233,6 @@ Em transição para a área de tecnologia com foco em sistemas e prevenção a f
 Este projeto faz parte de uma jornada prática de aprendizado. Cada versão representa evolução técnica e amadurecimento na construção de sistemas mais robustos.
 
 
-## 📸 Demonstração
-
-<img width="897" height="604" alt="Captura de tela 2026-04-02 132414" src="https://github.com/user-attachments/assets/9cdabc3c-0163-4b8a-ac10-2a39c343da22" />
-
-<img width="897" height="604" alt="Captura de tela 2026-04-02 132414" src="https://github.com/user-attachments/assets/b76781bb-2394-4b60-88ae-33931aa243c2" />
-
-<img width="961" height="563" alt="Captura de tela 2026-04-02 132220" src="https://github.com/user-attachments/assets/6b125f6b-232f-48a1-b58f-436660215dc0" />
-
-<img width="945" height="726" alt="Captura de tela 2026-04-02 132835" src="https://github.com/user-attachments/assets/b5b3f86f-9368-4867-b417-84780cf29508" />
-
-<img width="944" height="662" alt="Captura de tela 2026-04-02 132740" src="https://github.com/user-attachments/assets/60d3b794-65f2-4af9-abe7-cd93d10e3700" />
 
 
 
