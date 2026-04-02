@@ -190,7 +190,7 @@ def escolhe_categoria():
     categorias=lista_categorias_definidas()
     while True:
         try:
-            escolha=int(input(f"\nEscolha uma categoria: "))
+            escolha=int(input(f"\n{AZUL}>>>>{RESET} Escolha uma categoria: "))
             if 1<= escolha <=len(categorias):
                 return categorias[escolha-1]
             else: 
@@ -344,7 +344,7 @@ def registra_saida_cartao(info,cartao):
         mes_base, ano_base= calcula_fatura_base(data_compra, cartao['fechamento'])
         parcelas= gera_parcelas(valor_total, quantidade_parcelas)
         registra_parcelas(info, cartao, descricao, parcelas, categoria, data_compra, mes_base, ano_base, valor_total)
-        print(f"✅ Compra no valor de R${valor_total:.2f} registrada com sucesso em {quantidade_parcelas} parcela(s)")      
+        print(f"\n✅ Compra no valor de R${valor_total:.2f} registrada com sucesso em {quantidade_parcelas} parcela(s)")      
         sleep(0.5)              
     except ValueError:
         erro_input()
@@ -506,9 +506,9 @@ def filtra_por_periodo(transacoes, saldo):
             print(f"\n{MAGENTA}📅 PERÍODO:{RESET} {data_inicial.day:02d}/{data_inicial.month:02d}/{data_inicial.year} até {data_final.day:02d}/{data_final.month:02d}/{data_final.year}")
             print(f"{VERDE}💵 ENTRADA:{RESET} R${entrada:.2f}")
             print(f"{VERMELHO}💸 SAÍDA:{RESET} R${abs(saida):.2f}")
-            print(f"{LARANJA}💰 SALDO POR PERÍODO:{RESET} R${saldo_periodo:.2f}\n") 
+            print(f"{LARANJA}💰 SALDO POR PERÍODO:{RESET} R${abs(saldo_periodo):.2f}\n") 
             sleep(0.2)            
-            extrato_geral(lista_filtrada,saldo_periodo)
+            extrato_geral(lista_filtrada,saldo)
             sleep(0.2)
             break
 
