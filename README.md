@@ -183,9 +183,12 @@ O projeto está estruturado em uma única aplicação (V1), priorizando:
 ## 🔥 Decisões técnicas
 
 * Estrutura inicial mantida em um único arquivo propositalmente para focar em lógica
-* Uso de dicionários para simular estrutura de dados semelhante a banco
-* Separação de responsabilidades por funções
-* Evolução planejada em versões (visão de produto)
+* Separação da lógica de negócio em funções específicas (parcelamento, fatura, transações)
+* Estrutura de dados baseada em dicionários para simular persistência
+* Controle de faturas por mês/ano para representar comportamento real de cartões
+* Registro detalhado de transações para possibilitar filtros e relatórios
+
+O projeto foi estruturado visando evoluções futuras como orientação a objetos, integração com banco de dados e interface gráfica.
 
 ---
 
